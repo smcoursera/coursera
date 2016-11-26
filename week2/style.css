@@ -1,0 +1,71 @@
+    * {
+    	box-sizing: border-box;
+    }
+
+    @media (min-width: 992px) {
+    	section {
+    		width: 31.3%;
+    	}
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+    	#s1, #s2 {
+    		width: 47.3%;
+    	}
+
+        #s3 {
+            width: 97%;
+        }
+    }
+
+    @media (max-width: 767px) {
+    	section {
+    		width: 97%;
+    	}
+    }
+
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+    	text-align: center;
+        background-color: blue;
+    }
+
+    p {
+    	padding: 10px;
+    	clear: right;
+    }
+
+    section {
+    	color: CornflowerBlue;
+    	background-color: black;
+    	float: left;
+    	height: 140px;
+    	border: 1px red solid;
+    	margin: 10px;
+    }
+
+    .title {
+    	position: relative;
+    	padding: 5px;
+    	float: right;
+    	border: 1px red solid;
+    }
+
+    #t1 {
+    	color: Wheat;
+    	background-color: RebeccaPurple;
+    }
+
+    #t2 {
+    	color: white;
+    	background-color: DarkSlateGray;
+    }
+
+    #t3 {
+		color: NavajoWhite;
+    	background-color: Navy;
+    }
